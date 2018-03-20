@@ -1,0 +1,7 @@
+000 NUM
+aaa ID
+123 NUM
+ebd ID
+asdlksa ID
+1231 NUM
+0 erro(s) encontrado(s)
