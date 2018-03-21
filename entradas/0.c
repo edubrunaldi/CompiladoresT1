@@ -1,3 +1,8 @@
-000 aaa 123 ebd
-asdlksa 1231
-
+/* Este programa calcula a soma de dois números fornecidos
+   pelo usuário */
+void main(){
+    int x; int y; int resu§ltado;
+    x = input(); y=input();
+    resultado = x+y;
+    output(resultado);
+}

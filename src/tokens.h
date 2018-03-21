@@ -4,6 +4,14 @@
 // Copiados da especificacao do trabalho
 // Os 3 ultimos ultimos sao p/ uso interno
 #define TOKEN_LIST \
+    X(ELSE) \
+    X(IF) \
+    X(INT) \
+    X(RETURN) \
+    X(VOID) \
+    X(WHILE) \
+    X(INPUT) \
+    X(OUTPUT) \
     X(SOMA) \
     X(SUB) \
     X(MUL) \
