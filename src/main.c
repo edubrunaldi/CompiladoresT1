@@ -101,7 +101,11 @@ int main(int argc, char **argv)
 
     //Abre novamente o arquivo temporario para ser escrito no arquivo de saida.
     buffer = fopen("buffer.txt", "r");
-    if(output == NULL) return 4;
+    if(buffer == NULL) {
+        fclose(yyin);
+        fclose(output);
+        return 5;
+    }
 
     //Le do buffer e escreve no arquivo de saida.
     char c;
