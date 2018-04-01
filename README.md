@@ -1,5 +1,11 @@
 # Compiladores - T1
 
+## Integrantes
+
+* Hugo Moraes Dzin        8532186     BCC - A
+* Kaique Lupo Leite       8531907     BCC - A
+* Luiz Eduardo Dorici     4165850     BCC - A
+
 ## Compilação do Analisador Léxico
 
 Para compilar, basta executar *make* no diretório raiz deste projeto. Após a compilação, o arquivo binário se encontrará na pasta */bin*.
