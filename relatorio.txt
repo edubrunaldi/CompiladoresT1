@@ -1,5 +1,6 @@
-void VOID
-main ID
+0 erro(s) encontrado(s)
+void Palavra-chave
+main Palavra-chave
 ( AP
 ) FP
 { ACH
@@ -10,9 +11,7 @@ int INT
 y ID
 ; PV
 int INT
-resu ID
-§ ERRO
-ltado ID
+resultado ID
 ; PV
 x ID
 = ATRIB
@@ -38,4 +37,3 @@ resultado ID
 ) FP
 ; PV
 } FCH
-1 erro(s) encontrado(s)
