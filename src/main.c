@@ -60,15 +60,16 @@ int main(int argc, char **argv)
     //lexico de modo que seja possivel imprimir o numero de erros na primeira linha
     //do arquivo de saida.
     FILE *buffer = fopen("buffer.txt", "w");
-    if(output == NULL) {
+    if(buffer == NULL) {
         fprintf(stderr, "Erro: nao foi possivel abrir 'buffer.txt'\n");
         fclose(yyin);
+        fclose(output);
         return 4;
     }
 
     int total_errors = 0;
 
-    //Para cada token identificado, uma saida correspondente 
+    //Para cada token identificado, uma saida correspondente
     //eh escrita para o arquivo temporario.
     while(1) {
         int token = yylex();
@@ -89,7 +90,7 @@ int main(int argc, char **argv)
             fprintf(buffer, "%s Palavra-chave\n", yytext);
         }else if(token != TOKEN_COMMENT) {
             fprintf(buffer, "%s %s\n", yytext, TOKEN_NAMES[token]);
-        }  
+        }
     }
 
     //Salva o arquivo temporario com as tokens identificadas.
