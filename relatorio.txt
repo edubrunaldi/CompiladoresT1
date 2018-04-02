@@ -1,6 +1,6 @@
 0 erro(s) encontrado(s)
-void Palavra-chave
-main Palavra-chave
+void VOID
+main ID
 ( AP
 ) FP
 { ACH

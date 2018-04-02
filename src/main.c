@@ -84,11 +84,7 @@ int main(int argc, char **argv)
             total_errors += 1;
         }
 
-        //Se a token identificada é MAIN ou VOID, o output eh
-        //diferenciado. Para o resto, imprime-se a token e seu tipo.
-        if(token == TOKEN_MAIN || token == TOKEN_VOID){
-            fprintf(buffer, "%s Palavra-chave\n", yytext);
-        }else if(token != TOKEN_COMMENT) {
+        if(token != TOKEN_COMMENT) {
             fprintf(buffer, "%s %s\n", yytext, TOKEN_NAMES[token]);
         }
     }

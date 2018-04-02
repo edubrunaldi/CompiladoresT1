@@ -4,7 +4,6 @@
 // Copiados da especificacao do trabalho
 // Os 3 ultimos ultimos sao p/ uso interno
 #define TOKEN_LIST \
-    X(MAIN) \
     X(ELSE) \
     X(IF) \
     X(INT) \

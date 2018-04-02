@@ -5,7 +5,6 @@
 
 %%
 <<EOF>> { return TOKEN_EOF; }
-"main" {return TOKEN_MAIN; }
 "else" { return TOKEN_ELSE; }
 "if" { return TOKEN_IF; }
 "int" { return TOKEN_INT; }
