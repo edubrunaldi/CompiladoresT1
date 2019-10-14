@@ -12,4 +12,12 @@ Para compilar, basta executar *make* no diretório raiz deste projeto. Após a c
 
 ## Execução do Analisador Léxico
 
-Para executar o analisador no diretório raiz, basta digitar *./bin/gcc- <caminho_do_arquivo>*. Além de realizar a executação diretamente pelo binário, é possível usar o comando *make ARGS="<caminho_do_arquivo>" run* no diretório raiz.
+Para executar o analisador no diretório raiz, basta digitar 
+	
+	`$ ./bin/gcc- <caminho_do_arquivo>` 
+
+Além de realizar a executação diretamente pelo binário, é possível usar o comando  no diretório raiz.
+	
+	`$ make ARGS="<caminho_do_arquivo>" run`
+
+
