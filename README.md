@@ -14,10 +14,10 @@ Para compilar, basta executar *make* no diretório raiz deste projeto. Após a c
 
 Para executar o analisador no diretório raiz, basta digitar 
 	
-	`$ ./bin/gcc- <caminho_do_arquivo>` 
+	$ ./bin/gcc- <caminho_do_arquivo> 
 
 Além de realizar a executação diretamente pelo binário, é possível usar o comando  no diretório raiz.
 	
-	`$ make ARGS="<caminho_do_arquivo>" run`
+	$ make ARGS="<caminho_do_arquivo>" run
 
 
